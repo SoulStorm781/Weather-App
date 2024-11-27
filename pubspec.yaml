@@ -1,0 +1,44 @@
+name: weather_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0-149.3.beta
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  geolocator: ^12.0.0
+  weather: ^3.1.1
+  intl: ^0.20.0
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+# dependency_overrides:
+#   geolocator_web: 4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/weather/
+    - assets/images/
+
